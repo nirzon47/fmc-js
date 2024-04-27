@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Counter</title>
+		<link rel="stylesheet" href="/global.css" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<header>
+			<h2>NK</h2>
+			<h1>Counter</h1>
+			<nav>
+				<a href="https://github.com/nirzon47" target="_blank">
+					<img src="/github.svg" alt="Github" width="24" height="24" />
+				</a>
+			</nav>
+		</header>
+
+		<main>
+			<div class="counter">0</div>
+			<div class="buttons">
+				<button class="decrease">-</button>
+				<button class="increase">+</button>
+			</div>
+			<div class="input-section">
+				<label for="input-changer">Increase or decrease by</label>
+				<input
+					type="number"
+					inputmode="numeric"
+					name="input-changer"
+					id="input-changer"
+					min="-99"
+					max="99"
+				/>
+				<button class="change">Change</button>
+			</div>
+			<button class="reset">Reset</button>
+		</main>
+	</body>
+</html>
