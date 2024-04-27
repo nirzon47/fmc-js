@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>BMI Calculator</title>
+		<link rel="stylesheet" href="/global.css" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<header>
+			<h2>NK</h2>
+			<h1>BMI Calculator</h1>
+			<nav>
+				<a href="https://github.com/nirzon47" target="_blank">
+					<img src="/github.svg" alt="Github" width="24" height="24" />
+				</a>
+			</nav>
+		</header>
+
+		<main>
+			<form class="bmi-form">
+				<div class="input-group">
+					<label for="weight">Enter weight (in kgs)</label>
+					<input type="number" inputmode="numeric" id="weight" />
+				</div>
+
+				<div class="input-group">
+					<label for="height">Enter height (in cms)</label>
+					<input type="number" inputmode="numeric" id="height" />
+				</div>
+
+				<button class="calculate" type="submit">Calculate</button>
+				<p class="result"></p>
+			</form>
+		</main>
+	</body>
+</html>

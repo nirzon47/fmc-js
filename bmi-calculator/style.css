@@ -1,0 +1,29 @@
+main {
+	display: grid;
+	place-content: center;
+	height: calc(100vh - 5rem);
+	gap: 1rem;
+}
+
+.bmi-form {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.input-group {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+label {
+	font-size: 0.8rem;
+	font-weight: 600;
+}
+
+.result {
+	font-size: 1.5rem;
+	height: 1.75rem;
+	text-align: center;
+}
