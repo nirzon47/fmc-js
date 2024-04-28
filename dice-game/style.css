@@ -1,0 +1,26 @@
+p {
+	height: 1.75rem;
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+
+.dices {
+	display: flex;
+	gap: 2rem;
+}
+
+.dice {
+	background-color: #ff8686;
+	height: 5rem;
+	width: 5rem;
+	border-radius: 0.5rem;
+	display: grid;
+	place-content: center;
+	font-weight: 700;
+	font-size: 2rem;
+}
+
+button {
+	width: 10rem;
+}
