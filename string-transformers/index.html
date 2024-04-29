@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Guess The Number</title>
+		<link rel="stylesheet" href="/global.css" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<header>
+			<h2>NK</h2>
+			<h1>Guess The Number</h1>
+			<nav>
+				<a href="https://github.com/nirzon47/fmc-js" target="_blank">
+					<img src="/github.svg" alt="Github" width="24" height="24" />
+				</a>
+			</nav>
+		</header>
+
+		<main>
+			<div class="input-container">
+				<label for="guess">Enter your string</label>
+				<input
+					type="text"
+					id="string"
+					placeholder="Enter your string"
+					value="the quick brown fox jumped over a lazy slow dog"
+				/>
+			</div>
+			<div class="result">
+				<div class="result-div">
+					<p class="result-item">
+						theQuickBrownFoxJumpedOverTheLazySlowDog
+					</p>
+					<span class="heading">camelCase</span>
+				</div>
+				<div class="result-div">
+					<p class="result-item">
+						TheQuickBrownFoxJumpedOverTheLazySlowDog
+					</p>
+					<span class="heading">PascalCase</span>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
